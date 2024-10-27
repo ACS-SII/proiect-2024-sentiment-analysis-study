@@ -1,0 +1,127 @@
+'racai/distilbert-base-romanian-uncased', #--
+Epoch	Training Loss	Validation Loss	Accuracy	F1 Score
+1	0.489800	0.482624	0.809160	0.808800
+2	0.326600	0.510985	0.816207	0.816044
+3	0.188000	0.733014	0.805050	0.805055
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+ [54/54 00:06]
+Logits shape: (1703, 2)
+Evaluation results: {'eval_loss': 0.7330138683319092, 'eval_accuracy': 0.805049911920141, 'eval_f1_score': 0.8050546173133731, 'eval_runtime': 11.9959, 'eval_samples_per_second': 141.965, 'eval_steps_per_second': 4.502, 'epoch': 3.0}
+
+'racai/distilbert-base-romanian-cased', #--
+Epoch	Training Loss	Validation Loss	Accuracy	F1 Score
+1	0.503500	0.497987	0.805050	0.805012
+2	0.364300	0.474287	0.807986	0.807816
+3	0.227200	0.680225	0.807399	0.807200
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+ [54/54 00:06]
+Logits shape: (1703, 2)
+Evaluation results: {'eval_loss': 0.6802249550819397, 'eval_accuracy': 0.8073987081620669, 'eval_f1_score': 0.8071998542103203, 'eval_runtime': 11.9143, 'eval_samples_per_second': 142.938, 'eval_steps_per_second': 4.532, 'epoch': 3.0}
+
+'dumitrescustefan/bert-base-romanian-uncased-v1'
+Epoch	Training Loss	Validation Loss	Accuracy	F1 Score
+1	0.509500	0.557516	0.812096	0.812101
+2	0.301600	0.475520	0.827363	0.827353
+3	0.139600	0.850304	0.815619	0.815623
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+ [54/54 00:07]
+Logits shape: (1703, 2)
+Evaluation results: {'eval_loss': 0.8503040671348572, 'eval_accuracy': 0.815619495008808, 'eval_f1_score': 0.8156225466136076, 'eval_runtime': 7.7291, 'eval_samples_per_second': 220.337, 'eval_steps_per_second': 6.987, 'epoch': 3.0}
+
+'dumitrescustefan/bert-base-romanian-cased-v1', #---
+Epoch	Training Loss	Validation Loss	Accuracy	F1 Score
+1	0.510400	0.537996	0.813858	0.813018
+2	0.307600	0.561546	0.825602	0.825607
+3	0.121800	0.863557	0.827363	0.827369
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+ [54/54 00:07]
+Logits shape: (1703, 2)
+Evaluation results: {'eval_loss': 0.8635571002960205, 'eval_accuracy': 0.8273634762184381, 'eval_f1_score': 0.827368714685027, 'eval_runtime': 7.7448, 'eval_samples_per_second': 219.889, 'eval_steps_per_second': 6.972, 'epoch': 3.0}
+
+'xlm-roberta-base' #---
+Epoch	Training Loss	Validation Loss	Accuracy	F1 Score
+1	0.668400	0.778258	0.711685	0.711353
+2	0.608300	0.590286	0.722255	0.717578
+3	0.497300	0.518039	0.775103	0.774871
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+ [54/54 00:09]
+Logits shape: (1703, 2)
+Evaluation results: {'eval_loss': 0.5180391669273376, 'eval_accuracy': 0.7751027598355843, 'eval_f1_score': 0.7748707304465717, 'eval_runtime': 9.8918, 'eval_samples_per_second': 172.163, 'eval_steps_per_second': 5.459, 'epoch': 3.0}
+
+'bert-base-multilingual-cased'
+Epoch	Training Loss	Validation Loss	Accuracy	F1 Score
+1	0.664200	0.627145	0.675279	0.663494
+2	0.597500	0.624484	0.672930	0.655514
+3	0.500300	0.553879	0.746330	0.746215
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+ [54/54 00:08]
+Logits shape: (1703, 2)
+Evaluation results: {'eval_loss': 0.5538787245750427, 'eval_accuracy': 0.7463300058719906, 'eval_f1_score': 0.7462148127345606, 'eval_runtime': 9.0618, 'eval_samples_per_second': 187.931, 'eval_steps_per_second': 5.959, 'epoch': 3.0}
+
+'bert-base-multilingual-uncased'
+Epoch	Training Loss	Validation Loss	Accuracy	F1 Score
+1	0.642600	0.658243	0.669994	0.651541
+2	0.563500	0.552473	0.751615	0.751475
+3	0.474200	0.547009	0.760423	0.760107
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+ [54/54 00:08]
+Logits shape: (1703, 2)
+Evaluation results: {'eval_loss': 0.5470085144042969, 'eval_accuracy': 0.7604227833235467, 'eval_f1_score': 0.7601072498594625, 'eval_runtime': 9.0485, 'eval_samples_per_second': 188.209, 'eval_steps_per_second': 5.968, 'epoch': 3.0}
+
+'gpt2'
+Epoch	Training Loss	Validation Loss	Accuracy	F1 Score
+1	0.658800	0.554725	0.733412	0.730813
+2	0.506700	0.507822	0.766295	0.766232
+3	0.418800	0.537447	0.771580	0.771587
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+ [54/54 00:10]
+Logits shape: (1703, 2)
+Evaluation results: {'eval_loss': 0.5374465584754944, 'eval_accuracy': 0.7715795654726952, 'eval_f1_score': 0.7715866541162971, 'eval_runtime': 10.6479, 'eval_samples_per_second': 159.938, 'eval_steps_per_second': 5.071, 'epoch': 3.0}
+
+'DGurgurov/xlm-r_romanian_sentiment'
+Epoch	Training Loss	Validation Loss	Accuracy	F1 Score
+1	0.611300	0.531214	0.783324	0.782689
+2	0.439500	0.439623	0.800352	0.799866
+3	0.344300	0.622755	0.800940	0.800901
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+ [54/54 00:09]
+Logits shape: (1703, 2)
+Evaluation results: {'eval_loss': 0.6227548718452454, 'eval_accuracy': 0.8009395184967704, 'eval_f1_score': 0.8009010786083853, 'eval_runtime': 9.9309, 'eval_samples_per_second': 171.484, 'eval_steps_per_second': 5.438, 'epoch': 3.0}
+
+'readerbench/RoGPT2-base'
+Epoch	Training Loss	Validation Loss	Accuracy	F1 Score
+1	0.513400	0.578962	0.812683	0.812205
+2	0.308300	0.564589	0.799178	0.798778
+3	0.150400	1.177358	0.800940	0.800940
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+ [54/54 00:10]
+Logits shape: (1703, 2)
+Evaluation results: {'eval_loss': 1.177357792854309, 'eval_accuracy': 0.8009395184967704, 'eval_f1_score': 0.8009395184967704, 'eval_runtime': 10.6353, 'eval_samples_per_second': 160.127, 'eval_steps_per_second': 5.077, 'epoch': 3.0}
+
+'dumitrescustefan/t5-v1_1-base-romanian' --- dubios, perfect??
+Epoch	Training Loss	Validation Loss	Accuracy	F1 Score
+1	2.962600	0.000000	1.000000	1.000000
+2	0.047300	0.000000	1.000000	1.000000
+3	0.003500	0.000000	1.000000	1.000000
+ [54/54 00:15]
+Evaluation results: {'eval_loss': 0.0, 'eval_accuracy': 1.0, 'eval_f1_score': 1.0, 'eval_runtime': 16.7223, 'eval_samples_per_second': 101.84, 'eval_steps_per_second': 3.229, 'epoch': 3.0}
