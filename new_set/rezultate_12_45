@@ -118,6 +118,18 @@ Logits shape: (1703, 2)
 Logits shape: (1703, 2)
 Evaluation results: {'eval_loss': 1.177357792854309, 'eval_accuracy': 0.8009395184967704, 'eval_f1_score': 0.8009395184967704, 'eval_runtime': 10.6353, 'eval_samples_per_second': 160.127, 'eval_steps_per_second': 5.077, 'epoch': 3.0}
 
+'readerbench/RoBERT-base'
+Epoch	Training Loss	Validation Loss	Accuracy	F1 Score
+1	0.525300	0.589273	0.803288	0.801253
+2	0.326200	0.503728	0.812683	0.811968
+3	0.154700	0.844998	0.815619	0.815577
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+Logits shape: (1703, 2)
+ [54/54 00:07]
+Logits shape: (1703, 2)
+Evaluation results: {'eval_loss': 0.8449975252151489, 'eval_accuracy': 0.815619495008808, 'eval_f1_score': 0.8155771341277921, 'eval_runtime': 7.7858, 'eval_samples_per_second': 218.732, 'eval_steps_per_second': 6.936, 'epoch': 3.0}
+
 'dumitrescustefan/t5-v1_1-base-romanian' --- dubios, perfect??
 Epoch	Training Loss	Validation Loss	Accuracy	F1 Score
 1	2.962600	0.000000	1.000000	1.000000
