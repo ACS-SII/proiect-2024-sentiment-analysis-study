@@ -1,0 +1,13 @@
+The script has started
+HELLO
+              precision    recall  f1-score   support
+
+     Pozitiv       0.81      0.83      0.82      1002
+     Negativ       0.83      0.80      0.81      1001
+
+    accuracy                           0.82      2003
+   macro avg       0.82      0.82      0.82      2003
+weighted avg       0.82      0.82      0.82      2003
+
+Evaluation results saved to evaluation/evaluation_results.csv
+Plots saved to evaluation

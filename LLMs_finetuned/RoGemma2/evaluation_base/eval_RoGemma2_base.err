@@ -1,0 +1,36 @@
+--- Logging error ---
+Traceback (most recent call last):
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/rogemma/lib/python3.10/logging/__init__.py", line 1100, in emit
+    msg = self.format(record)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/rogemma/lib/python3.10/logging/__init__.py", line 943, in format
+    return fmt.format(record)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/rogemma/lib/python3.10/logging/__init__.py", line 678, in format
+    record.message = record.getMessage()
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/rogemma/lib/python3.10/logging/__init__.py", line 368, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/export/home/proiecte/aux/ovidiu.ghibea/SII/RoGemma2/evaluation_base.py", line 22, in <module>
+    model_base = AutoModelForCausalLM.from_pretrained(
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/rogemma/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/rogemma/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4097, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/rogemma/lib/python3.10/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 963, in __init__
+    super().__init__(config)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/rogemma/lib/python3.10/site-packages/transformers/modeling_utils.py", line 1432, in __init__
+    self.generation_config = GenerationConfig.from_model_config(config) if self.can_generate() else None
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/rogemma/lib/python3.10/site-packages/transformers/generation/configuration_utils.py", line 1235, in from_model_config
+    generation_config = cls.from_dict(config_dict, return_unused_kwargs=False, _from_model_config=True)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/rogemma/lib/python3.10/site-packages/transformers/generation/configuration_utils.py", line 1093, in from_dict
+    config = cls(**{**config_dict, **kwargs})
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/rogemma/lib/python3.10/site-packages/transformers/generation/configuration_utils.py", line 475, in __init__
+    self.validate(is_init=True)
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/rogemma/lib/python3.10/site-packages/transformers/generation/configuration_utils.py", line 751, in validate
+    logger.warning_once(
+  File "/export/home/proiecte/aux/ovidiu.ghibea/.conda/envs/rogemma/lib/python3.10/site-packages/transformers/utils/logging.py", line 328, in warning_once
+    self.warning(*args, **kwargs)
+Message: 'You have set `use_cache` to `False`, but cache_implementation is set to hybrid. cache_implementation will have no effect.'
+Arguments: (<class 'UserWarning'>,)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:07<00:22,  7.47s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:14<00:14,  7.38s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:22<00:07,  7.37s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.56s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.86s/it]
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
